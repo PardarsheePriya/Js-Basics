@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Added for better box model handling */
+}
+
+/* Apply a background color to the body and set text color */
+body {
+  background: #b1d5eb;
+  color: #fff;
+  font-family: Arial, sans-serif; /* Changed font family */
+}
+
+/* Center content in the container */
+.container {
+  margin: 100px 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; /* Use the full viewport height */
+  width: 650px;
+  background-color: #002339;
+}
+
+/* Style the title */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin: 20px 0; /* Simplified margin */
+  font-weight: bold; /* Added font weight */
+  font-size: 24px; /* Adjusted font size */
+}
+
+/* Style the display area */
+.display {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 70%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px; /* Spaced from the title */
+}
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Style the password input field */
+#password {
+  border: none;
+  flex: 1; /* Fill available space */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Style the copy button */
+button {
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  background: #019f55;
+  color: #fff;
+  font-size: 18px; /* Slightly reduced font size */
+  font-weight: 600; /* Increased font weight */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px; /* Reduced padding */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the copy image */
+button img {
+  width: 20px; /* Adjusted image size */
+  margin-right: 10px;
+}
